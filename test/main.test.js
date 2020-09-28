@@ -53,7 +53,7 @@ describe("test", () => {
                 dom.window.document.addEventListener("DOMContentLoaded", () => {
                     setImmediate(() => {
                         window = dom.window;
-                        isAssertBrowser = window.is;
+                        isAssertBrowser = window.assert;
                         done();
                     });
                 });

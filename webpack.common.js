@@ -18,7 +18,7 @@ module.exports = {
         }),
     ],
     output: {
-        library: "is",
+        library: "assert",
         libraryTarget: "umd",
         path: path.resolve(__dirname, "dist"),
     },
