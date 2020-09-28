@@ -7,7 +7,7 @@
 
 ## Documentation, Installation, and Usage Instructions
 
-> This package is a wrapper for [oslllo-validator](https://www.npmjs.com/package/oslllo-validator) therefore share the same documentaion with it.
+> This package is a wrapper for [oslllo-validator](https://www.npmjs.com/package/oslllo-validator) therefore shares the same documentaion with it.
 
 See the full installation and usage documentation [HERE](https://docs.oslllo.com/validator/master/).
 
