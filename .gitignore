@@ -1,0 +1,7 @@
+lib
+dist
+temp
+.nyc_output
+node_modules
+docs/index.html
+*debug.log
