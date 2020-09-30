@@ -41,3 +41,11 @@ assert.actualNaN(null, assert.msg("Invalid UUID")); // => Throws Error with cust
 ```
 
 ---
+
+## Return `false` instead
+
+If you want to return `false` instead of an `exception` then check out `oslllo-validator` [HERE](https://github.com/oslllo/validator)
+
+![](./docs/images/cover-small.png)
+
+---
