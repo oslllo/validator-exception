@@ -33,6 +33,15 @@
     "dependencies": {
         "oslllo-validator": "^1.0.0"
     },
+    "keywords": [
+        "oslllo",
+        "validator",
+        "validator-exception",
+        "exception",
+        "javascript",
+        "all-in-one-validator",
+        "all-in-one"
+    ],
     "devDependencies": {
         "@babel/cli": "^7.11.6",
         "@babel/core": "^7.11.6",
