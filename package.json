@@ -31,7 +31,7 @@
     },
     "homepage": "https://docs.oslllo.com/validator/master",
     "dependencies": {
-        "oslllo-validator": "^1.0.0"
+        "oslllo-validator": "^1.0.1"
     },
     "keywords": [
         "oslllo",
