@@ -1,7 +1,7 @@
 
 ![Cover Image](docs/images/cover.png)
 
-[![build](https://img.shields.io/travis/oslllo/validator-exception)](https://travis-ci.org/github/oslllo/validator-exception)
+[![build](https://img.shields.io/travis/oslllo/validator-exception)](https://travis-ci.com/github/oslllo/validator-exception)
 [![npm](https://img.shields.io/npm/v/oslllo-validator-exception)](https://www.npmjs.com/package/oslllo-validator-exception)
 [![Coverage Status](https://img.shields.io/coveralls/github/oslllo/validator-exception)](https://coveralls.io/github/oslllo/validator-exception?branch=master)
 
