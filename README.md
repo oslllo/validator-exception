@@ -1,7 +1,6 @@
-
 ![Cover Image](docs/images/cover.png)
 
-[![build](https://img.shields.io/travis/oslllo/validator-exception)](https://travis-ci.com/github/oslllo/validator-exception)
+[![CI/Test](https://github.com/oslllo/validator-exception/actions/workflows/ci.test.yml/badge.svg)](https://github.com/oslllo/validator-exception/actions/workflows/ci.test.yml)
 [![npm](https://img.shields.io/npm/v/oslllo-validator-exception)](https://www.npmjs.com/package/oslllo-validator-exception)
 [![Coverage Status](https://img.shields.io/coveralls/github/oslllo/validator-exception)](https://coveralls.io/github/oslllo/validator-exception?branch=master)
 
@@ -37,7 +36,6 @@ assert.actualNaN(undefined); // => Throws Error
 const assert = require("oslllo-validator-exception");
 
 assert.actualNaN(null, assert.msg("Invalid UUID")); // => Throws Error with custom message "Invalid UUID"
-
 ```
 
 ---
