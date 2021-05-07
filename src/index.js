@@ -12,13 +12,13 @@ const validators = require("oslllo-validator");
  * @returns {Message}
  */
 function Message (text) {
-    this.text = text;
+  this.text = text;
 }
 
 var assert = {
-    msg: function (message) {
-        return new Message(message);
-    },
+  msg: function (message) {
+    return new Message(message);
+  },
 };
 
 /**
@@ -29,25 +29,25 @@ var assert = {
  * @returns {Function}
  */
 function assertify (validator) {
-    return function () {
-        /* eslint prefer-rest-params: "off" */
-        if (!validators[validator](...arguments)) {
-            var arg;
-            for (var i = 0; i < arguments.length; i++) {
-                arg = arguments[i];
-                if (arg instanceof Message) {
-                    throw falseException(arg.text);
-                }
-            }
-            throw falseException(null, arguments[0], validator);
+  return function () {
+    /* eslint prefer-rest-params: "off" */
+    if (!validators[validator](...arguments)) {
+      var arg;
+      for (var i = 0; i < arguments.length; i++) {
+        arg = arguments[i];
+        if (arg instanceof Message) {
+          throw falseException(arg.text);
         }
+      }
+      throw falseException(null, arguments[0], validator);
+    }
 
-        return true;
-    };
+    return true;
+  };
 }
 
 for (var validator in validators) {
-    assert[validator] = assertify(validator);
+  assert[validator] = assertify(validator);
 }
 
 module.exports = assert;
